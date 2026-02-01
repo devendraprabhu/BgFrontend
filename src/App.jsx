@@ -1,8 +1,8 @@
 import React from 'react'
 import Nav from './components/nav.jsx'
 import Bodytext from './components/Bodytext.jsx'
-import Para from './components/para.jsx'
-import Backend from './backend.jsx'
+import Para from './components/Para.jsx'
+import Backend from './Backend.jsx'
 import Footer from './components/Footer.jsx'
 import RippleGrid from './components/RippleGrid.jsx'
 import { Routes, Route } from 'react-router-dom'
@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className='flex flex-col min-h-screen'>
       <Nav />
-      <div className='flex-grow'>
+      <div className='grow'>
       <Routes>
         <Route path='/' element={
           <div className='relative overflow-hidden'>
