@@ -2,13 +2,12 @@ import React from 'react'
 import Nav from './components/Nav.jsx'
 import Bodytext from './components/Bodytext.jsx'
 import Para from './components/Para.jsx'
-import Backend from './pages/Backend.jsx'
+import Backend from '..src/Backend.jsx'
 import Footer from './components/Footer.jsx'
 import RippleGrid from './components/RippleGrid.jsx'
 import { Routes, Route } from 'react-router-dom'
 import Privacy from './pages/Privacy.jsx'
-import Terms from '/pages/Terms.jsx'
-
+import Terms from '../pages/Terms.jsx'
 const App = () => {
   return (
     <div className='flex flex-col min-h-screen'>
