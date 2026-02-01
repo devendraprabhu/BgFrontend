@@ -1,13 +1,13 @@
 import React from 'react'
-import Nav from './components/nav.jsx'
+import Nav from './components/Nav.jsx'
 import Bodytext from './components/Bodytext.jsx'
-import Para from './components/para.jsx'
-import Backend from './backend.jsx'
+import Para from './components/Para.jsx'
+import Backend from '/Backend.jsx'
 import Footer from './components/Footer.jsx'
 import RippleGrid from './components/RippleGrid.jsx'
 import { Routes, Route } from 'react-router-dom'
 import Privacy from './pages/Privacy.jsx'
-import Terms from './pages/terms.jsx'
+import Terms from '/pages/Terms.jsx'
 
 const App = () => {
   return (
